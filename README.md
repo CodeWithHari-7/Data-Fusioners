@@ -4,10 +4,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![Next.js 14](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Live%20Production-success.svg)](https://frontend-nine-livid-83.vercel.app)
 
 A production-minded, multimodal evidence intelligence web application. Users upload multiple PDF, scanned images, Excel, CSV, and TXT files. The system extracts information, structures evidence into claims, connects related entities, detects contradictions and anomalies, and displays traceable results with zero fabricated conclusions.
 
-**GitHub Repository:** [https://github.com/CodeWithHari-7/Data-Fusioners.git](https://github.com/CodeWithHari-7/Data-Fusioners.git)
+- **Live Production (Vercel):** [https://frontend-nine-livid-83.vercel.app](https://frontend-nine-livid-83.vercel.app)
+- **GitHub Repository:** [https://github.com/CodeWithHari-7/Data-Fusioners.git](https://github.com/CodeWithHari-7/Data-Fusioners.git)
 
 ---
 
