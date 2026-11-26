@@ -1,0 +1,8 @@
+Equipment,Parameter,Value,Unit,Time
+Boiler 1,Temperature,95,degC,2026-05-14 10:00:00
+Boiler 1,Temperature,203,degF,2026-05-14 10:05:00
+Reactor Alpha,Temperature,95,degC,2026-05-14 10:00:00
+Reactor Alpha,Temperature,78,degC,2026-05-14 10:02:00
+Boiler 2,Temperature,78,degC,2026-05-14 10:00:00
+Pump Station B,Pressure,14.8,bar,2026-05-14 10:15:00
+Pump Station B,Pressure,214.6,psi,2026-05-14 10:18:00
