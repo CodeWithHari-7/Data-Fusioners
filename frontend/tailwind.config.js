@@ -8,27 +8,40 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Times New Roman"', 'Times', 'serif'],
-        sans: ['"Times New Roman"', 'Times', 'serif'], // Enforce Times New Roman throughout as required
+        sans: ["var(--font-inter)", "Inter", "system-ui", "-apple-system", "sans-serif"],
+        mono: ["var(--font-jetbrains-mono)", "JetBrains Mono", "ui-monospace", "SFMono-Regular", "monospace"],
       },
       colors: {
-        background: "#FFFFFF",
-        primary: {
-          DEFAULT: "#111827",
-          dark: "#000000",
-          light: "#374151",
+        navy: {
+          midnight: "#101B2D",
+          deep: "#1D3557",
+          surface: "#152338",
+          elevated: "#1A2B45",
+          border: "#253A59",
+          steel: "#52749B",
         },
-        accent: {
-          blue: "#1D4ED8",
-          teal: "#0D9488",
-          orange: "#EA580C",
-          red: "#DC2626",
-          green: "#16A34A",
+        electric: {
+          DEFAULT: "#3987F7",
+          hover: "#2B76E5",
+          soft: "#EAF2FC",
         },
-        border: {
-          light: "#E5E7EB",
-          subtle: "#F3F4F6",
-        }
+        teal: {
+          DEFAULT: "#16B8A6",
+          soft: "rgba(22, 184, 166, 0.14)",
+        },
+        status: {
+          verified: "#16B8A6",
+          uncertain: "#E5A23B",
+          conflict: "#E05252",
+          info: "#3987F7",
+        },
+        surface: {
+          offwhite: "#F7F9FC",
+          lightgrey: "#E5EAF1",
+        },
+      },
+      borderRadius: {
+        card: "12px",
       },
     },
   },

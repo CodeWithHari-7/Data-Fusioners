@@ -3,39 +3,52 @@
 @tailwind utilities;
 
 :root {
-  --background: #FFFFFF;
-  --foreground: #111827;
+  --font-inter: "Inter", system-ui, -apple-system, sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: "Times New Roman", Times, Georgia, serif;
+  font-family: var(--font-inter);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Subtle scrollbars */
+/* Subtle enterprise scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #FAFAFA;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #D1D5DB;
-  border-radius: 3px;
+  background: rgba(82, 116, 155, 0.35);
+  border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #9CA3AF;
+  background: rgba(82, 116, 155, 0.6);
 }
 
-/* Print styling for formal investigation reports */
+/* Smooth fade transition */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
 @media print {
   body {
-    background: #FFFFFF;
-    color: #000000;
+    background: #FFFFFF !important;
+    color: #101B2D !important;
   }
   .no-print {
     display: none !important;
